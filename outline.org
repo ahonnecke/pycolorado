@@ -12,7 +12,6 @@
 **** You cannot implement CI without a reproducable environment
 ** Problems
 *** Environmental dependencies in a README
-
 ** Seperation of concerns
 *** Goals
     What I want to talk about is divorcing the application that you're writing from the
