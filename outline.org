@@ -1,0 +1,40 @@
+* Cleaning up your superfund site
+** Hi I'm ashton, I'm here to talk about cleaning up your superfund site
+** Spoiler alert
+*** This title of this talk described a problem, this presentation is about a solution.
+**** Solves the problem that is the title
+**** Solves many other problems as well
+** Goals
+*** Minimize the un-version-controlled dependencies your application has
+*** Testability
+*** Approachabiliy
+**** The amount of time that it would take a new developer to run your app locally
+**** You cannot implement CI without a reproducable environment
+** Problems
+*** Environmental dependencies in a README
+
+** Seperation of concerns
+*** Goals
+    What I want to talk about is divorcing the application that you're writing from the
+    external dependencies that it relies upon.  Ideally you want to be able to check out
+    and develop on a given application without spending much (if all) time setting up the
+    local environment to be able to run that application.
+*** Concentric circles
+    You can think of your application as a kernel of code in the middle of several concentric
+    circles, like invisible matryoshka dolls around you, but not creepy.
+**** Kernel: your app
+*** detail
+**** First ring: your package mananger
+*** detail
+**** Seconsd ring: your Virtual machine (dockerfile in this example)
+*** detail
+**** Third ring: your service collection (docker-compose in this example)
+*** detail
+
+** The power of containers
+*** Repoducability
+*** Maintainability
+*** Version controlPpfre
+**** Incident resolution
+*** DONE Setup time / onboarding
+*** Decreasing congnitive load
