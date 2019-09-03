@@ -40,5 +40,5 @@
 *** Maintainability
 *** Version control
 **** Incident resolution
-*** DONE Setup time / onboarding
+*** Setup time / onboarding
 *** Decreasing congnitive load

@@ -70,9 +70,42 @@ any external requirements, libraries or services.
                                      \\@@&((@@@@@@/((&@@@#
 ```
 
-
 ## Version control external dependencies
+
+Move all the application requirements *out* of the README, and into one of these layers
+of abstraction.
+
+* Deterministic
+* Accurate
+* Reproducible
+
+If it's not in version control do you really have it?
+
+## Minimize onboarding time (and context switching time)
+
+* How long does it take a new developer to get up to speed?
+* What's the opportunity cost associated with the app not being self servicing?
+
+The faster, easier, and more self contained the repository is, the faster your team can
+move and grow. Optimize the actions that you take *most often!*
+
 ## Make testing fast and automatic
-## Minimize onboarding time
+
+* Tests fail fast
+
+The sooner a test fails (if it was going to fail anyway) the better!
+
+### Make testing easy
+The easier it is to run tests, the more often they will be run!
+
+### Test services
+* unit
+* lint
+* database
+* fixtures
+* integration
+
 ## Streamline CI/CD
 
+If we've done everything right up to this point, moving into a CI/CD process should be
+fast and easy!
