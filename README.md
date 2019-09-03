@@ -21,8 +21,9 @@ A presentation about effective application isolation
 3. Containerization (docker)
 3. Service composition (docker-compose)
 
-We're going to look at an open source project that offers virtual environments, and a Dockerfile,
-but does not yet have a docker-compose defined
+We're going to look at an
+[open source high frequency cryptocurrency trading bot](https://github.com/freqtrade/freqtrade)
+that offers virtual environments, and a Dockerfile, but does not yet have a docker-compose defined.
 
 # Concentric Circles Model
 You can think of your application as a kernel of code in the middle of several concentric
