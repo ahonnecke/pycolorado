@@ -1,3 +1,8 @@
+# Cleaning Up Your Python Superfund Site
+A presentation about effective application isolation
+## PyColorado 2019
+### Ashton Honnecke
+
 ![Hyperbolic XKCD about local python environments](https://imgs.xkcd.com/comics/python_environment.png)
 
 # Goals
