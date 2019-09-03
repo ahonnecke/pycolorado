@@ -5,9 +5,14 @@
 **** Solves the problem that is the title
 **** Solves many other problems as well
 ** Goals
-*** Minimize the un-version-controlled dependencies your application has
+*** Minimize un-version-controlled dependencies
 *** Testability
-*** Approachabiliy
+**** Unit testing service
+**** Integration testing service
+*** Approachability
+**** Elapsed onboarding time
+*** Deployability
+**** CI/CD
 **** The amount of time that it would take a new developer to run your app locally
 **** You cannot implement CI without a reproducable environment
 ** Problems
@@ -33,7 +38,7 @@
 ** The power of containers
 *** Repoducability
 *** Maintainability
-*** Version controlPpfre
+*** Version control
 **** Incident resolution
 *** DONE Setup time / onboarding
 *** Decreasing congnitive load
