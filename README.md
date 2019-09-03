@@ -1,5 +1,4 @@
-![Hyperbolic XKCD about local python environments]
-(https://imgs.xkcd.com/comics/python_environment.png)
+![Hyperbolic XKCD about local python environments](https://imgs.xkcd.com/comics/python_environment.png)
 
 = Goals
 * Version control external dependencies
@@ -8,6 +7,10 @@
 * Streamline CI/CD
 
 = Method
+1. Virtual Environments (venv)
+2. Package Management (pip)
+3. Containerization (docker)
+3. Service composition (docker-compose)
 
 We're going to look at an open source project that offers virtual environments, and a Dockerfile
 
@@ -19,19 +22,19 @@ circles, like invisible matryoshka dolls around your application.
                               ,&@@@@@@@@@@@@@@@&,
                         #@@@@@@@@@@@&(//((&@@@@@@@@@@@#
                     @@@@@@@,                       ,@@@@@@@
-                 @@@@@@                                 @@@@@@
+                 @@@@@@          Docker Compose          @@@@@@
               @@@@@.                                       .@@@@@
             @@@@*                                             *@@@@
           @@@@                 ,@@@@@@@@@@@@@@@,                 @@@@
         @@@@              *@@@@@@@@@(,. .,(@@@@@@@@@*              @@@@
        @@@*            &@@@@@.                   .@@@@@&            *@@@
-     *@@@            @@@@&                           &@@@@            @@@*
+     *@@@            @@@@&         Dockerfile        &@@@@            @@@*
     @@@@           @@@@                                 @@@@           @@@@
    @@@@          @@@@              %@@@@@@@%              @@@@          @@@@
   #@@@          @@@.          &@@@@@@@@@@@@@@@@@&          .@@@          @@@#
   @@@         *@@@         /@@@@%             %@@@@/         @@@*         @@@
  @@@         .@@@         @@@@                   @@@@         @@@.         @@@
-,@@%         @@@        &@@@                       @@@&        @@@         %@@,
+,@@%         @@@        &@@@        Pipenv         @@@&        @@@         %@@,
 @@@         @@@        @@@%                         %@@@        @@@         @@@
 @@@         @@@        @@@         @@@@@@@@@         @@@        @@@         @@@
 @@&        ,@@(       @@@        %@@@     @@@%        @@@       (@@,        &@@
@@ -40,19 +43,19 @@ circles, like invisible matryoshka dolls around your application.
 @@&        ,@@(       @@@        %@@@     @@@%        @@@       (@@,        &@@
 @@@         @@@        @@@         @@@@@@@@@         @@@        @@@         @@@
 @@@         @@@        @@@%                         %@@@        @@@         @@@
-,@@%         @@@        &@@@                       @@@&        @@@         %@@,
+,@@%         @@@        &@@@        Pipenv         @@@&        @@@         %@@,
  @@@         .@@@         @@@@                   @@@@         @@@.         @@@
   @@@         *@@@         /@@@@%             %@@@@/         @@@*         @@@
   #@@@          @@@.          &@@@@@@@@@@@@@@@@@&          .@@@          @@@#
    @@@@          @@@@              %@@@@@@@%              @@@@          @@@@
     @@@@           @@@@                                 @@@@           @@@@
-     *@@@            @@@@&                           &@@@@            @@@*
+     *@@@            @@@@&         Dockerfile         &@@@@            @@@*
        @@@*            &@@@@@.                   .@@@@@&            *@@@
         @@@@              *@@@@@@@@@(,. .,(@@@@@@@@@*              @@@@
           @@@@                 ,@@@@@@@@@@@@@@@,                 @@@@
             @@@@*                                             *@@@@
               @@@@@.                                       .@@@@@
-                 @@@@@@                                 @@@@@@
+                 @@@@@@         Docker Compose           @@@@@@
                     @@@@@@@,                       ,@@@@@@@
                         #@@@@@@@@@@@&((/((&@@@@@@@@@@@#
 ```
@@ -63,6 +66,4 @@ circles, like invisible matryoshka dolls around your application.
 == Minimize onboarding time
 == Streamline CI/CD
 
-
-
-  Move application requirements out of the README
+<
