@@ -111,7 +111,10 @@ The easier it is to run tests, the more often they will be run!
 * fixtures
 * integration
 
+You can add these services to your docker-compose such that they spin up in the background
+*any time* you run `docker-compose up`
+
 ## Streamline CI/CD
 
 If we've done everything right up to this point, moving into a CI/CD process should be
-fast and easy!
+fast and easy!  Just run `docker-compose run unit_test`!
