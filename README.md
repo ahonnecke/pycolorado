@@ -3,8 +3,9 @@ A presentation about effective application isolation
 ## PyColorado 2019
 ### Ashton Honnecke
 
-# XKCD
+# XKCD 1987
 ![Hyperbolic XKCD about local python environments](https://imgs.xkcd.com/comics/python_environment.png)
+[https://xkcd.com/1987/](https://xkcd.com/1987/)
 
 # Goals
 ## Understand the value that containers can offer, why, when and how to utilize them.
