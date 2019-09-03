@@ -23,7 +23,9 @@ A presentation about effective application isolation
 
 We're going to look at an
 [open source high frequency cryptocurrency trading bot](https://github.com/freqtrade/freqtrade)
-that offers virtual environments, and a Dockerfile, but does not yet have a docker-compose defined.
+that offers [virtual environments](https://github.com/freqtrade/freqtrade/blob/develop/setup.sh#L148),
+and a [Dockerfile](https://github.com/freqtrade/freqtrade/blob/develop/Dockerfile),
+but does not [yet have a docker-compose defined](https://github.com/freqtrade/freqtrade/pull/2219).
 
 # Concentric Circles Model
 You can think of your application as a kernel of code in the middle of several concentric
