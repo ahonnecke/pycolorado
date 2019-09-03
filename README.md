@@ -3,6 +3,7 @@ A presentation about effective application isolation
 ## PyColorado 2019
 ### Ashton Honnecke
 
+# XKCD
 ![Hyperbolic XKCD about local python environments](https://imgs.xkcd.com/comics/python_environment.png)
 
 # Goals
