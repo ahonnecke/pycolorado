@@ -15,7 +15,7 @@
 We're going to look at an open source project that offers virtual environments, and a Dockerfile,
 but does not yet have a docker-compose defined
 
-# Concentric circles model
+# Concentric Circles Model
 You can think of your application as a kernel of code in the middle of several concentric
 circles, like invisible matryoshka dolls around your application. You want to be in complete
 control of the environment your application is running inside of, completely independent of
@@ -65,9 +65,8 @@ any external requirements, libraries or services.
 ```
 
 
-== Version control external dependencies
-== Make testing fast and automatic
-== Minimize onboarding time
-== Streamline CI/CD
+## Version control external dependencies
+## Make testing fast and automatic
+## Minimize onboarding time
+## Streamline CI/CD
 
-<
