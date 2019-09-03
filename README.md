@@ -7,6 +7,7 @@ A presentation about effective application isolation
 ![Hyperbolic XKCD about local python environments](https://imgs.xkcd.com/comics/python_environment.png)
 
 # Goals
+## Understand the value that containers can offer, why, when and how to utilize them.
 * Version control external dependencies
 * Make testing fast and automatic
 * Minimize onboarding time
