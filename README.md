@@ -1,12 +1,12 @@
 # Cleaning Up Your Python Superfund Site
 A presentation about effective application isolation
-###                    PyColorado
-###                September 9th 2019
-####                  Ashton Honnecke
 
 # [XKCD 1987](https://xkcd.com/1987/)
 ![Hyperbolic XKCD about local python environments](https://imgs.xkcd.com/comics/python_environment.png)
 
+###                    PyColorado
+###                September 9th 2019
+####                  Ashton Honnecke
 
 # Goals
 ## Understand the value that containers can offer, why, when and how to utilize them.
