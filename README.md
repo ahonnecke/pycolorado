@@ -27,6 +27,28 @@ that offers [virtual environments](https://github.com/freqtrade/freqtrade/blob/d
 and a [Dockerfile](https://github.com/freqtrade/freqtrade/blob/develop/Dockerfile),
 but does not [yet have a docker-compose defined](https://github.com/freqtrade/freqtrade/pull/2219).
 
+## Local uncontainerized venv
+
+``` bash
+source .env/bin/activate
+```
+
+``` bash
+python -i
+import ccxt
+```
+
+# Local uncontainerized build
+
+``` bash
+docker build .
+```
+
+``` bash
+docker run .
+```
+
+
 # Concentric Circles Model
 You can think of your application as a kernel of code in the middle of several concentric
 circles, like invisible matryoshka dolls around your application. You want to be in complete
@@ -118,3 +140,15 @@ You can add these services to your docker-compose such that they spin up in the 
 
 If we've done everything right up to this point, moving into a CI/CD process should be
 fast and easy!  Just run `docker-compose run unit_test`!
+
+## Freqtrade
+https://github.com/freqtrade/freqtrade
+
+### Docker-compose PR
+https://github.com/freqtrade/freqtrade/pull/2219
+
+### Code coverage report
+https://coveralls.io/builds/25531715
+
+### Travis Job
+https://travis-ci.org/freqtrade/freqtrade/jobs/580888541
