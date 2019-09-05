@@ -104,8 +104,18 @@ Move all the application requirements *out* of the README, and into one of these
 of abstraction.
 
 * Deterministic
+
+We want our projects to produce the exact same outputs when given the exact same inputs.
+
 * Accurate
+
+We want the environments that we develop in to be as similar to production as reasonably possible.
+
 * Reproducible
+
+We want to be able to destroy and recreate the entirety of the environment with little to no effort.
+
+* Version control all the things
 
 If it's not in version control do you really have it?
 
