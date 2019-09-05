@@ -173,3 +173,13 @@ https://coveralls.io/builds/25531715
 
 ### Travis Job
 https://travis-ci.org/freqtrade/freqtrade/jobs/580888541
+
+### Ashton talked really fast
+
+Here's some other things that we could cover!
+
+* Dockerfile structure
+* Dockerfile layer caching
+* Alpine images
+* Lambda containers
+* Microservices
