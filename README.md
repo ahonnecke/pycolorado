@@ -127,6 +127,12 @@ If it's not in version control do you really have it?
 The faster, easier, and more self contained the repository is, the faster your team can
 move and grow. Optimize the actions that you take *most often!*
 
+## Docker compose tricks
+* name resolution
+* depends_on
+  - application level stability
+* ports/expose
+
 ## Make testing fast and automatic
 
 * Tests fail fast
