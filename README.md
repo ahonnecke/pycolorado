@@ -31,17 +31,6 @@ that offers [virtual environments](https://github.com/freqtrade/freqtrade/blob/d
 and a [Dockerfile](https://github.com/freqtrade/freqtrade/blob/develop/Dockerfile),
 but does not [yet have a docker-compose defined](https://github.com/freqtrade/freqtrade/pull/2219).
 
-## Local uncontainerized venv
-
-``` bash
-source .env/bin/activate
-```
-
-``` bash
-python -i
-import ccxt
-```
-
 # Local uncontainerized build
 
 ``` bash
@@ -174,7 +163,7 @@ https://coveralls.io/builds/25531715
 ### Travis Job
 https://travis-ci.org/freqtrade/freqtrade/jobs/580888541
 
-### Ashton talked really fast
+### What if the presentation went really fast?
 
 Here's some other things that we could cover!
 
