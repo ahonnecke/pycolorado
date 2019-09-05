@@ -15,6 +15,10 @@ A presentation about effective application isolation
 * Minimize onboarding time
 * Streamline CI/CD
 
+## Assumptions
+Awareness: virtual env, docker, pip or pipenv, poetry
+not docker-compose
+
 # Method
 1. Virtual Environments (venv)
 2. Package Management (pip)
