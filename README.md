@@ -128,10 +128,11 @@ The faster, easier, and more self contained the repository is, the faster your t
 move and grow. Optimize the actions that you take *most often!*
 
 ## Docker compose tricks
+* build v. pull
 * name resolution
 * depends_on
   - application level stability
-* ports/expose
+* ports v. expose
 
 ## Make testing fast and automatic
 
