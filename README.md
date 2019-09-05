@@ -165,10 +165,17 @@ https://travis-ci.org/freqtrade/freqtrade/jobs/580888541
 
 ### What if the presentation went really fast?
 
-Here's some other things that we could cover!
+## Here's some other things that we could cover!
 
 * Dockerfile structure
 * Dockerfile layer caching
 * Alpine images
 * Lambda containers
 * Microservices
+
+## Really? OK
+
+* distributed ledger tech (blockchain)
+* prompt_toolkit
+* tqdm
+* ccxt
