@@ -170,12 +170,14 @@ https://travis-ci.org/freqtrade/freqtrade/jobs/580888541
 * Dockerfile structure
 * Dockerfile layer caching
 * Alpine images
+* Timescale Alembic Migration up down up example
 * Lambda containers
 * Microservices
 
 ## Really? OK
 
 * distributed ledger tech (blockchain)
+* scraping ec2 with boto3
 * prompt_toolkit
 * tqdm
 * ccxt
